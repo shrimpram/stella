@@ -7,7 +7,7 @@ compile:
 	latexmk -pdflua banner.tex
 
 mustache:
-	mustache ../../scheme.yml banner-mustache.tex > banner.tex
+	mustache ../../scheme.yml banner.mustache > banner.tex
 ifeq ($(UNAME_S),Darwin)
 	sed -Ei '.bak' '/#[A-Z|0-9]{6}/ s/#//' banner.tex
 	rm banner.tex.bak

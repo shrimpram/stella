@@ -7,7 +7,7 @@ compile:
 	latexmk -pdf colors.tex
 
 mustache:
-	mustache ../../scheme.yml colors-mustache.tex > colors.tex
+	mustache ../../scheme.yml colors.mustache > colors.tex
 ifeq ($(UNAME_S),Darwin)
 	sed -Ei '.bak' '/#[A-Z|0-9]{6}/ s/#//' colors.tex
 	rm colors.tex.bak
