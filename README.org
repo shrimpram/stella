@@ -1,0 +1,30 @@
+#+title: Stella
+#+author: Shreeram Modi (Shrimpram)
+
+[[./static/banner/banner.png]]
+
+** Color Palette
+
+*** Monotones
+| *Key*   | *Hex*     | *Sample*                        | *Key*   | *Hex*     | *Sample*                        |
+|---------+-----------+---------------------------------+---------+-----------+---------------------------------|
+| d1      | =#2B213C= | [[./static/colors/d1.png]]      | c2      | =#958DA2= | [[./static/colors/c2.png]]      |
+| d2      | =#4C3F6E= | [[./static/colors/d2.png]]      | l1      | =#B2A8B6= | [[./static/colors/l1.png]]      |
+| c1      | =#655979= | [[./static/colors/c1.png]]      | l2      | =#D7D3DA= | [[./static/colors/l2.png]]      |
+
+*** Accent Colors
+| *Key*   | *Hex*     | *Sample*                        | *Key*        | *Hex*     | *Sample*                          |
+|---------+-----------+---------------------------------+--------------+-----------+-----------------------------------|
+| red     | =#C8917B= | [[./static/colors/red.png]]     | dark red     | =#8B5D49= | [[./static/colors/d-red.png]]     |
+| orange  | =#CCA37E= | [[./static/colors/orange.png]]  | dark orange  | =#93704F= | [[./static/colors/d-orange.png]]  |
+| yellow  | =#C7C17D= | [[./static/colors/yellow.png]]  | dark yellow  | =#908B4E= | [[./static/colors/d-yellow.png]]  |
+| green   | =#ACC79B= | [[./static/colors/green.png]]   | dark green   | =#779166= | [[./static/colors/d-green.png]]   |
+| blue    | =#A4A8D8= | [[./static/colors/blue.png]]    | dark blue    | =#656FC9= | [[./static/colors/d-blue.png]]    |
+| magenta | =#BE9EE2= | [[./static/colors/magenta.png]] | dark magenta | =#985BCD= | [[./static/colors/d-magenta.png]] |
+| cyan    | =#9BBFD4= | [[./static/colors/cyan.png]]    | dark cyan    | =#65889C= | [[./static/colors/d-cyan.png]]    |
+
+** Credits
+- Templating using [[https://mustache.github.io][mustache]]
+- Typefaces used in banner:
+  - [[http://www.losttype.com/font/?name=chromaletter][Chromaletter]]
+  - [[https://fonts.google.com/specimen/Cormorant+Garamond][Cormorant Garamond]]
