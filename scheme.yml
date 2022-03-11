@@ -1,0 +1,22 @@
+{
+  "d1":     "#2B213C",
+  "d2":     "#4C3F6E",
+  "c1":     "#655979",
+  "c2":     "#958DA2",
+  "l1":     "#B2A8B6",
+  "l2":     "#D7D3DA",
+  "red":     "#C8917B",
+  "orange":  "#CCA37E",
+  "yellow":  "#C7C17D",
+  "green":   "#ACC79B",
+  "blue":    "#A4A8D8",
+  "magenta": "#BE9EE2",
+  "cyan":    "#9BBFD4",
+  "d-red":     "#8B5D49",
+  "d-orange":  "#93704F",
+  "d-yellow":  "#908B4E",
+  "d-green":   "#779166",
+  "d-blue":    "#656FC9",
+  "d-magenta": "#985BCD",
+  "d-cyan":    "#65889C"
+}
