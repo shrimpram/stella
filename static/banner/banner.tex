@@ -1,0 +1,83 @@
+% arara: lualatex
+\documentclass[landscape]{article}
+
+\usepackage[paperwidth=8.5cm, paperheight=5cm]{geometry}
+
+\usepackage[table]{xcolor}
+
+\definecolor{d1}{HTML}{2B213C}
+\definecolor{d2}{HTML}{4C3F6E}
+\definecolor{c1}{HTML}{655979}
+\definecolor{c2}{HTML}{958DA2}
+\definecolor{l1}{HTML}{B2A8B6}
+\definecolor{l2}{HTML}{D7D3DA}
+\definecolor{red}{HTML}{C8917B}
+\definecolor{orange}{HTML}{CCA37E}
+\definecolor{yellow}{HTML}{C7C17D}
+\definecolor{green}{HTML}{ACC79B}
+\definecolor{blue}{HTML}{A4A8D8}
+\definecolor{magenta}{HTML}{BE9EE2}
+\definecolor{cyan}{HTML}{9BBFD4}
+\definecolor{d-red}{HTML}{8B5D49}
+\definecolor{d-orange}{HTML}{93704F}
+\definecolor{d-yellow}{HTML}{908B4E}
+\definecolor{d-green}{HTML}{779166}
+\definecolor{d-blue}{HTML}{656FC9}
+\definecolor{d-magenta}{HTML}{985BCD}
+\definecolor{d-cyan}{HTML}{65889C}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+
+\usepackage{titling}
+\usepackage{fontspec}
+\newfontfamily\Chomsky[]{Chomsky}
+\newfontfamily\Cormorant[]{CormorantGaramond}
+\newfontfamily\Chromaletter[]{Chromaletter-Combo}
+
+\usepackage{moresize}
+
+\usepackage{booktabs,array}
+
+\title{Stella}
+\author{}
+\date{}
+
+\begin{document}
+
+\pagecolor{d1}
+
+\begin{center}
+  {\HUGE \Chromaletter \textcolor{l2}{Stella}}
+
+  {\footnotesize \Cormorant \textcolor{l2}{A regal purple scheme based on my dog Stella}}
+\end{center}
+
+
+\begin{center}
+    \renewcommand{\arraystretch}{0.5}
+    \setlength{\tabcolsep}{12pt}
+  \begin{tabular}{ccccccc}
+    \multicolumn{7}{c}{\cellcolor{d2}}\\
+    \multicolumn{7}{c}{\cellcolor{c1}}\\
+    \multicolumn{7}{c}{\cellcolor{c2}}\\
+    \multicolumn{7}{c}{\cellcolor{l1}}\\\\
+    \cellcolor{red} &
+    \cellcolor{orange} &
+    \cellcolor{yellow} &
+    \cellcolor{green} &
+    \cellcolor{blue} &
+    \cellcolor{magenta} &
+    \cellcolor{cyan}\\[1.5ex]
+    \cellcolor{d-red} &
+    \cellcolor{d-orange} &
+    \cellcolor{d-yellow} &
+    \cellcolor{d-green} &
+    \cellcolor{d-blue} &
+    \cellcolor{d-magenta} &
+    \cellcolor{d-cyan}\\[1.5ex]
+  \end{tabular}
+\end{center}
+
+
+\end{document}

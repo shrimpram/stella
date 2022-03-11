@@ -1,0 +1,84 @@
+% arara: lualatex
+\documentclass[landscape]{article}
+
+\usepackage[paperwidth=8.5cm, paperheight=5cm]{geometry}
+
+\usepackage[table]{xcolor}
+
+{{=| |=}}
+\definecolor{d1}{HTML}{|d1|}
+\definecolor{d2}{HTML}{|d2|}
+\definecolor{c1}{HTML}{|c1|}
+\definecolor{c2}{HTML}{|c2|}
+\definecolor{l1}{HTML}{|l1|}
+\definecolor{l2}{HTML}{|l2|}
+\definecolor{red}{HTML}{|red|}
+\definecolor{orange}{HTML}{|orange|}
+\definecolor{yellow}{HTML}{|yellow|}
+\definecolor{green}{HTML}{|green|}
+\definecolor{blue}{HTML}{|blue|}
+\definecolor{magenta}{HTML}{|magenta|}
+\definecolor{cyan}{HTML}{|cyan|}
+\definecolor{d-red}{HTML}{|d-red|}
+\definecolor{d-orange}{HTML}{|d-orange|}
+\definecolor{d-yellow}{HTML}{|d-yellow|}
+\definecolor{d-green}{HTML}{|d-green|}
+\definecolor{d-blue}{HTML}{|d-blue|}
+\definecolor{d-magenta}{HTML}{|d-magenta|}
+\definecolor{d-cyan}{HTML}{|d-cyan|}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+
+\usepackage{titling}
+\usepackage{fontspec}
+\newfontfamily\Chomsky[]{Chomsky}
+\newfontfamily\Cormorant[]{CormorantGaramond}
+\newfontfamily\Chromaletter[]{Chromaletter-Combo}
+
+\usepackage{moresize}
+
+\usepackage{booktabs,array}
+
+\title{Stella}
+\author{}
+\date{}
+
+\begin{document}
+
+\pagecolor{d1}
+
+\begin{center}
+  {\HUGE \Chromaletter \textcolor{l2}{Stella}}
+
+  {\footnotesize \Cormorant \textcolor{l2}{A regal purple scheme based on my dog Stella}}
+\end{center}
+
+
+\begin{center}
+    \renewcommand{\arraystretch}{0.5}
+    \setlength{\tabcolsep}{12pt}
+  \begin{tabular}{ccccccc}
+    \multicolumn{7}{c}{\cellcolor{d2}}\\
+    \multicolumn{7}{c}{\cellcolor{c1}}\\
+    \multicolumn{7}{c}{\cellcolor{c2}}\\
+    \multicolumn{7}{c}{\cellcolor{l1}}\\\\
+    \cellcolor{red} &
+    \cellcolor{orange} &
+    \cellcolor{yellow} &
+    \cellcolor{green} &
+    \cellcolor{blue} &
+    \cellcolor{magenta} &
+    \cellcolor{cyan}\\[1.5ex]
+    \cellcolor{d-red} &
+    \cellcolor{d-orange} &
+    \cellcolor{d-yellow} &
+    \cellcolor{d-green} &
+    \cellcolor{d-blue} &
+    \cellcolor{d-magenta} &
+    \cellcolor{d-cyan}\\[1.5ex]
+  \end{tabular}
+\end{center}
+
+
+\end{document}
