@@ -1,0 +1,105 @@
+# vim:ft=kitty
+#: This is a template that can be used to create new kitty themes.
+#: Theme files should start with a metadata block consisting of
+#: lines beginning with ##. All metadata fields are optional.
+
+## name: Stella (dark)
+## author: Shreeram Modi (Shrimpram)
+## license: MIT
+## upstream: https://github.com/shrimpram/stella
+## blurb: A regal purple scheme based on my dog Stella
+
+#: All the settings below are colors, which you can choose to modify, or use the
+#: defaults. You can also add non-color based settings if needed but note that
+#: these will not work with using kitty @ set-colors with this theme. For a
+#: reference on what these settings do see https://sw.kovidgoyal.net/kitty/conf/
+
+#: The basic colors
+
+foreground                      {{l1}}
+background                      {{d1}}
+selection_foreground            {{l1}}
+selection_background            {{d2}}
+
+
+#: Cursor colors
+
+cursor                          {{l1}}
+cursor_text_color               {{d1}}
+
+
+#: URL underline color when hovering with mouse
+
+url_color                       {{cyan}}
+
+
+#: kitty window border colors and terminal bell colors
+
+active_border_color             {{green}}
+inactive_border_color           {{c2}}
+bell_border_color               {{red}}
+visual_bell_color               none
+
+
+#: OS Window titlebar colors
+
+wayland_titlebar_color          {{d1}}
+macos_titlebar_color            {{d1}}
+
+
+#: Tab bar colors
+
+active_tab_foreground           {{d1}}
+active_tab_background           {{l2}}
+inactive_tab_foreground         {{d2}}
+inactive_tab_background         {{c2}}
+tab_bar_background              none
+tab_bar_margin_color            none
+
+
+#: Colors for marks (marked text in the terminal)
+
+mark1_foreground black
+mark1_background {{cyan}}
+mark2_foreground black
+mark2_background {{yellow}}
+mark3_foreground black
+mark3_background {{magenta}}
+
+
+#: The basic 16 colors
+
+#: black
+color0 {{d2}}
+color8 {{c2}}
+
+#: red
+color1 {{red}}
+color9 {{red}}
+
+#: green
+color2  {{green}}
+color10 {{green}}
+
+#: yellow
+color3  {{yellow}}
+color11 {{yellow}}
+
+#: blue
+color4  {{blue}}
+color12 {{blue}}
+
+#: magenta
+color5  {{magenta}}
+color13 {{magenta}}
+
+#: cyan
+color6  {{cyan}}
+color14 {{cyan}}
+
+#: white
+color7  {{l2}}
+color15 {{l2}}
+
+
+#: You can set the remaining 240 colors as color16 to color255.
