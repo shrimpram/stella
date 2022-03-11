@@ -1,5 +1,5 @@
-#+title: Stella
 #+author: Shreeram Modi (Shrimpram)
+#+options: toc:nil
 
 [[./static/banner/banner.png]]
 
