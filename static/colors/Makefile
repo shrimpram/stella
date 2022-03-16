@@ -4,7 +4,7 @@ colors: pdf png
 pdf: mustache compile
 
 compile:
-	latexmk -pdf colors.tex
+	latexmk -lualatex colors.tex
 
 mustache:
 	mustache ../../scheme.yml colors.mustache > colors.tex

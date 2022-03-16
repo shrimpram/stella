@@ -4,7 +4,7 @@ banner: pdf png
 pdf: mustache compile
 
 compile:
-	latexmk -pdflua banner.tex
+	latexmk -lualatex banner.tex
 
 mustache:
 	mustache ../../scheme.yml banner.mustache > banner.tex
