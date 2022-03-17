@@ -55,7 +55,7 @@ hi DiffText ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#656FC9 gui=NONE
 hi IncSearch ctermbg=11 ctermfg=1 cterm=NONE guibg=#65889C guifg=#B2A8B6 gui=NONE
 hi Search ctermbg=6 ctermfg=1 cterm=NONE guibg=#93704F guifg=#B2A8B6 gui=NONE
 hi Directory ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#656FC9 gui=NONE
-hi MatchParen ctermbg=1 ctermfg=11 cterm=NONE guibg=#B2A8B6 guifg=#65889C gui=NONE
+hi MatchParen ctermbg=1 ctermfg=11 cterm=NONE guibg=NONE guifg=#985BCD gui=NONE
 hi SpellBad ctermbg=NONE ctermfg=4 cterm=underline guibg=NONE guifg=#8B5D49 gui=underline guisp=#8B5D49
 hi SpellCap ctermbg=NONE ctermfg=4 cterm=underline guibg=NONE guifg=#8B5D49 gui=underline guisp=#8B5D49
 hi SpellLocal ctermbg=NONE ctermfg=5 cterm=underline guibg=NONE guifg=#8B5D49 gui=underline guisp=#8B5D49
