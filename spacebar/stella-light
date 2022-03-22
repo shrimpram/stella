@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+spacebar -m config background_color     0xFFD7D3DA
+spacebar -m config foreground_color     0xFF4C3F6E
+spacebar -m config space_icon_color     0xFF65889C
+spacebar -m config power_icon_color     0xFF908B4E
+spacebar -m config battery_icon_color   0xFF8B5D49
+spacebar -m config dnd_icon_color       0xFF985BCD
+spacebar -m config clock_icon_color     0xFF655979
