@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
 yabai -m config active_window_border_color   0xFFACC79B
-yabai -m config normal_window_border_color   0xFFD7D3DA
+yabai -m config normal_window_border_color   0xFFB2A8B6
