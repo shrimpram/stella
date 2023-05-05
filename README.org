@@ -27,4 +27,4 @@
 - Templating using [[https://mustache.github.io][mustache]]
 - Typefaces used in banner:
   - [[http://www.losttype.com/font/?name=chromaletter][Chromaletter]]
-  - [[https://fonts.google.com/specimen/Cormorant+Garamond][Cormorant Garamond]]
+  - [[https://fonts.google.com/specimen/Cormorant][Cormorant]]
