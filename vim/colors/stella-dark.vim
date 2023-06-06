@@ -153,3 +153,5 @@ hi link TSVariableBuiltin Identifier
 hi link OrgTODO Todo
 hi link Searchlight Incsearch
 hi link Sneak Incsearch
+hi link NormalFloat Pmenu
+hi link FloatBorder Pmenu
