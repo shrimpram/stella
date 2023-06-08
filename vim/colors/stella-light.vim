@@ -74,6 +74,7 @@ hi ToolbarButton ctermbg=NONE ctermfg=1 cterm=NONE guibg=NONE guifg=#4C3F6E gui=
 hi debugPC ctermbg=NONE ctermfg=9 cterm=NONE guibg=NONE guifg=#656FC9 gui=NONE
 hi debugBreakpoint ctermbg=NONE ctermfg=4 cterm=NONE guibg=NONE guifg=#4C3F6E gui=NONE
 hi TSEmphasis ctermbg=NONE ctermfg=NONE cterm=italic guibg=NONE guifg=NONE gui=italic
+hi TSBold ctermbg=NONE ctermfg=NONE cterm=bold guibg=NONE guifg=NONE gui=bold
 hi TSUnderline ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline guisp=#4C3F6E
 hi TSStrike ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=strikethrough guisp=#8B5D49
 hi NeomakeErrorSign ctermbg=NONE ctermfg=5 cterm=NONE guibg=NONE guifg=#8B5D49 gui=NONE
