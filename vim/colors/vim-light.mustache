@@ -156,3 +156,5 @@ hi link Searchlight Incsearch
 hi link Sneak Incsearch
 hi link NormalFloat Pmenu
 hi link FloatBorder Pmenu
+hi link @text.emphasis TSEmphasis
+hi link @text.strong TSBold
